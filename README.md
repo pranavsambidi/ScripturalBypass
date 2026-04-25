@@ -37,7 +37,7 @@ ScripturalBypass/
 
 1. **Clone the repository:**
    ```bash
-   git clone <YOUR_GITHUB_REPOSITORY_URL>
+   git clone <https://github.com/pranavsambidi/ScripturalBypass.git>
    cd ScripturalBypass
    ```
 
@@ -101,4 +101,5 @@ python src/calculate_kappa.py
 
 ## Ethical Disclaimer
 This research was conducted following responsible disclosure and ethical AI research guidelines. To minimize harm, the behaviors targeted in the generated dataset were strictly limited to "grey-area" sociological and digital harms (e.g., misinformation, social engineering). No prompts targeting physical violence or self-harm were included. The code and dataset provided in this repository are strictly for academic evaluation of model robustness and must not be used to conduct cyberattacks or malicious social engineering.
+
 ```
