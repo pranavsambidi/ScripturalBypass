@@ -1,4 +1,3 @@
-```markdown
 # The Scriptural Bypass: Evaluating Semantic Adversarial Attacks via Religious Framing in LLMs
 
 **Authors:** Pranav Reddy Sambidi, Adithya Vardhan Selvam, Sharath Talur Subramanian  
