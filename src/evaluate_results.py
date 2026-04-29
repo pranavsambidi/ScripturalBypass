@@ -3,6 +3,7 @@ from dotenv import load_dotenv
 from openai import OpenAI
 import pandas as pd
 import time 
+import re
 
 # 1. Load the environment variables from the .env file
 load_dotenv()
@@ -13,7 +14,6 @@ client = OpenAI(
     base_url="https://api.groq.com/openai/v1",
 )
 
-# We use a massive 70-Billion parameter model to act as the strict judge
 JUDGE_MODEL = "llama-3.1-8b-instant"
 
 print("Loading inference results for grading...")
